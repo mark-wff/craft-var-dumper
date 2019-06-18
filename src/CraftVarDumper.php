@@ -56,7 +56,9 @@ class CraftVarDumper extends Plugin
         parent::init();
         self::$plugin = $this;
 
-        Craft::$app->view->registerTwigExtension(new DumpExtension());
+        if ( craft()->config->get( 'devMode' ) ) {
+            Craft::$app->view->registerTwigExtension(new DumpExtension());
+        }
 
         Event::on(
             Plugins::class,

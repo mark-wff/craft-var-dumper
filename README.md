@@ -1,8 +1,7 @@
 # Craft-Var-Dumper plugin for Craft CMS 3.x
 
-Adds Symfony Var-Dumper to Craft CMS
-
-![Screenshot](resources/img/plugin-logo.png)
+Add's Symfony Var-Dumper to Craft CMS by using 
+[Twig Dump Extension](https://github.com/nlemoine/twig-dump-extension) from [nlemoine](https://github.com/nlemoine).
 
 ## Requirements
 
@@ -18,21 +17,24 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require markwff/craft-var-dumper
+        composer require mark-wff/craft-var-dumper
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Craft-Var-Dumper.
 
-## Craft-Var-Dumper Overview
-
--Insert text here-
-
-## Configuring Craft-Var-Dumper
-
--Insert text here-
-
 ## Using Craft-Var-Dumper
 
--Insert text here-
+some Twig-File:
+
+```
+    // dump everything.
+    {{ dump() }}
+    
+    // dump Variable.
+    {{ dump(myVariable) }}
+    
+    // dump multiple Variables.
+    {{ dump(myVariable, mySecondVariable) }}
+```
 
 ## Craft-Var-Dumper Roadmap
 

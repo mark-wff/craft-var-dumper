@@ -1,5 +1,5 @@
 {
-    "name": "markwff/craftvardumper",
+    "name": "mark-wff/craft-var-dumper",
     "description": "Adds Symfony Var-Dumper to Craft CMS",
     "type": "craft-plugin",
     "version": "1.0.0",

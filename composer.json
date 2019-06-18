@@ -1,5 +1,5 @@
 {
-    "name": "markwffcraftvardumper/craft-var-dumper",
+    "name": "markwff/craftvardumper",
     "description": "Adds Symfony Var-Dumper to Craft CMS",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -11,14 +11,14 @@
         "craft-var-dumper"
     ],
     "support": {
-        "docs": "https://github.com/mark-wff/craft-var-dumper/blob/master/README.md",
-        "issues": "https://github.com/mark-wff/craft-var-dumper/issues"
+        "docs": "https://github.com/markwff/craft-var-dumper/blob/master/README.md",
+        "issues": "https://github.com/markwff/craft-var-dumper/issues"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Mark Wolff",
-            "homepage": "https://github.com/mark-wff"
+            "homepage": "https://github.com/markwff"
         }
     ],
     "require": {
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-          "markwffcraftvardumper\\craftvardumper\\": "src/"
+          "markwff\\craftvardumper\\": "src/"
         }
     },
     "extra": {
@@ -35,7 +35,7 @@
         "handle": "craft-var-dumper",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/mark-wff/craft-var-dumper/master/CHANGELOG.md",
-        "class": "markwffcraftvardumper\\craftvardumper\\CraftVarDumper"
+        "changelogUrl": "https://raw.githubusercontent.com/markwff/craft-var-dumper/master/CHANGELOG.md",
+        "class": "markwff\\craftvardumper\\CraftVarDumper"
     }
 }

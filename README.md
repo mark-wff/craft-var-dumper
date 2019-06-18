@@ -18,7 +18,7 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require mark-wff/craft-var-dumper
+        composer require markwff/craft-var-dumper
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Craft-Var-Dumper.
 
@@ -40,4 +40,4 @@ Some things to do, and ideas for potential features:
 
 * Release it
 
-Brought to you by [Mark Wolff](https://github.com/mark-wff)
+Brought to you by [Mark Wolff](https://github.com/markwff)

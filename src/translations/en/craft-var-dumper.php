@@ -4,7 +4,7 @@
  *
  * Adds Symfony Var-Dumper to Craft CMS
  *
- * @link      https://github.com/mark-wff
+ * @link      https://github.com/markwff
  * @copyright Copyright (c) 2019 Mark Wolff
  */
 

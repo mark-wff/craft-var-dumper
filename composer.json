@@ -22,7 +22,7 @@
     ],
     "require": {
         "craftcms/cms": "^3.0.0-RC1",
-        "hellonico/twig-dump-extension": "^1.0"
+        "hellonico/twig-dump-extension": "^1.1"
     },
     "autoload": {
         "psr-4": {

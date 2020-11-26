@@ -10,8 +10,6 @@
 
 namespace markwff\craftvardumper;
 
-use HelloNico\Twig\DumpExtension;
-
 use Craft;
 use craft\base\Plugin;
 use craft\services\Plugins;

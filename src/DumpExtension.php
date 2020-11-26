@@ -3,7 +3,7 @@
 namespace markwff\craftvardumper;
 
 use Symfony\Bridge\Twig\TokenParser\DumpTokenParser;
-use Symfony\Component\VarDumper\Cloner\ClonerInterface;
+use Symfony\Component\VarDumper\Cloner\VarCloner;
 use Symfony\Component\VarDumper\Dumper\HtmlDumper;
 use Twig\Environment;
 use Twig\Extension\AbstractExtension;

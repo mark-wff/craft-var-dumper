@@ -2,7 +2,6 @@
 
 namespace markwff\craftvardumper;
 
-use Symfony\Bridge\Twig\TokenParser\DumpTokenParser;
 use Symfony\Component\VarDumper\Cloner\VarCloner;
 use Symfony\Component\VarDumper\Dumper\HtmlDumper;
 use Twig\Environment;
@@ -30,14 +29,6 @@ class DumpExtension extends AbstractExtension
         return [
             new TwigFunction('dump', [$this, 'dump'], ['is_safe' => ['html'], 'needs_context' => true, 'needs_environment' => true]),
         ];
-    }
-
-    /**
-     * @return TokenParserInterface[]
-     */
-    public function getTokenParsers()
-    {
-        return [new DumpTokenParser()];
     }
 
     public function getName()

@@ -10,8 +10,8 @@
         "craft-var-dumper"
     ],
     "support": {
-        "docs": "https://github.com/markwff/craft-var-dumper/blob/master/README.md",
-        "issues": "https://github.com/markwff/craft-var-dumper/issues"
+        "docs": "https://github.com/mark-wff/craft-var-dumper/blob/master/README.md",
+        "issues": "https://github.com/mark-wff/craft-var-dumper/issues"
     },
     "license": "MIT",
     "authors": [
@@ -30,7 +30,7 @@
         }
     },
     "extra": {
-        "name": "Craft-Var-Dumper",
+        "name": "Craft Var Dumper",
         "handle": "craft-var-dumper",
         "hasCpSettings": false,
         "hasCpSection": false,

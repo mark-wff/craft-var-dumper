@@ -22,7 +22,7 @@
     ],
     "require": {
         "craftcms/cms": "^3.0.0-RC1",
-        "symfony/var-dumper": "^3"
+        "symfony/var-dumper": "*"
     },
     "autoload": {
         "psr-4": {

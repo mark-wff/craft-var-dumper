@@ -20,7 +20,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 - cleanup composer.json
 
-## ? - 2021-02-26
+## 1.2.0 - 2021-11-29
 ### Added
 - remove unused files
 - update Readme
+- allow all symfony/var-dumper versions

@@ -17,12 +17,12 @@
     "authors": [
         {
             "name": "Mark Wolff",
-            "homepage": "https://github.com/markwff"
+            "homepage": "https://github.com/mark-wff"
         }
     ],
     "require": {
         "craftcms/cms": "^3.0.0-RC1",
-        "symfony/var-dumper": "^3"
+        "symfony/var-dumper": "*"
     },
     "autoload": {
         "psr-4": {
